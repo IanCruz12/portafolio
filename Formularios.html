@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1 align="center">Formularios</h1>
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Datos del usuario</legend>
+            <label for="usuario">Nombre de usuario:</label>
+            <br><input type="text" placeholder="Usuario" maxlength="12" name="usuario" id="usuario">
+
+            <legend for="ad">Nombre:</legend>
+            <input type="text" type="text" name="ad" id="ad"> 
+
+            <legend for="ap">Apellido paterno:</legend>
+            <input type="text" type="text" name="ap" id="ap"> 
+
+            <legend for="am">Apellido materno</legend>
+            <input type="text" type="text" name="am" id="am"> 
+
+            <br><label for="pass">Contraseña</label>
+            <br><input type="password" name="pass" id="pass" placeholder="" required>
+
+            <br><label for="comenta">Comentarios</label>
+            <br><textarea name="comenta" id="comenta" cols="25" rows="10"></textarea>
+
+            <br><label for="coreo">E-mail</label>
+            <br><input type="email" name="correo" id="correo">
+
+            <br><label for="fechan">Fecha de nacimiento</label>
+            <br><input type="date" name="fechan" id="fechan">
+
+            <br><label for="colores">Selecciona un color</label>
+            <br><input type="color" name="colores" id="colores">
+
+            <br><label for="mes">Mes de registro</label>
+            <br><input type="month" name="mes" id="mes">
+
+            <br><label for="semana">Semana</label>
+            <input type="week" name="semana" id="semana" required>
+
+            <br><label for="fechahora">Fecha y hora</label>
+            <br><input type="datetime-local" name="fechahora" id="fecha">
+
+            <br><label for="archivos">Adjuntar archivo:</label>
+            <br><input type="file" name="archivos" id="archivos "required>
+
+            <br><label for="pagina">URL:</label>
+            <br><input type="url" name="pagina" id="pagina" required>
+
+            <br><label for="Cantidad">Cantidad a comprar:</label>
+            <br><input type="number" name="Cantidad" id="Cantidad">
+
+            <br><label for="califica">Califica el producto:</label>
+            <br><input type="range" name="califica" id="califica" min="0" max="10" value="6">
+
+            <h3>Indica tus formas de pago preferidas</h3>
+            <input type="checkbox" name="tarjeta" id="tarjeta" value="tarjeta">
+            <label for="tarjeta">Tarjeta de credito</label><br>
+            <input type="checkbox" name="tarjetad" id="tarjetad" value="tarjetad" checked>
+            <label for="debito">Tarjeta de debito</label><br>
+            <input type="checkbox" name="transfer" id="transfer" value="transfer">
+            <label for="transfer">Transferencia</label>
+
+            <h3>Indica tu género</h3>
+            <input type="radio" name="genero" id="genero">
+            <label for="genero">Femenino</label><br>
+
+            <input type="radio" name="genero" id="genero">
+            <label for="genero">Masculino</label><br>
+
+            <h3>Categotia de producto a buscar</h3>
+            <select size="7" multiple>
+                <optgroup label="Alimentos">
+                    <option>Lacteos</option>
+                    <option>Refijerados</option>
+                    <option>carnes</option>
+                    <option >Carnes frias</option>
+                    <option selected>Frutas/Verduras</option>
+                </optgroup>
+                <optgroup label="Cuidado personal">
+                    <option>Higiene personal</option>
+                    <option>Belleza</option>
+                </optgroup>
+                <optgroup label="Hogar"> 
+                    <option>Producto de limpieza</option>
+                    <option>Jardineria</option>
+                </optgroup>
+            </select>
+
+            <br><input type="submit"/>
+
+        </fieldset> 
+    </form>
+</body>
+</html>
