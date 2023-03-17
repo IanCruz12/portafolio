@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(206, 252, 206);
+}
+a{
+    color: darkmagenta;
+    font-weight: bold;
+}
+#parrafo1{
+    color: rgb(144, 212, 144);
+} 
+#link1{
+    font-size: 17px;
+}
+#titulo{
+    color: blue;
+}
+a, #titulo{
+    font-style: italic;
+}
