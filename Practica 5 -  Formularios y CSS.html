@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EstilosPractica5.css">
+    <title>Practica5 Formularios y CSS</title>
+</head>
+<body>
+    <h1>Servicios de Internet y Telefonía</h1>
+    <h2>Contrato de Servicios</h2>
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Datos del cliente</legend>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label for="Nombre">Nombre: <br></label>
+                    </td>
+                    <td>
+                        <label for="ApellidoPA">Apellido Paterno: <br></label>
+                    </td>
+                    <td>
+                        <label for="ApellidoMA">Apellido Materno: <br></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Nombre" name="Nombre" id="Nombre"> 
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Apellido Paterno" name="ApellidoPA" id="ApellidoPA">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Apellido Materno" name="ApellidoMA" id="ApellidoMA"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Ciudad">Ciudad:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="ciudad" id="ciudad" size="5">
+                            <option>San Luis Potosi</option>
+                            <option>Matehuala</option>
+                            <option>Cd.Valles</option>
+                            <option>Querétaro</option>
+                            <option>Guanajuato</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Servicio a contratar</legend>
+            <table align="center">
+                <tr id="tr1">
+                    <td>Selecciona el tipo de servicio a contratar</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lineaTE">Línea Telefónica</label>
+                        <input type="checkbox" name="lineaTE" id="lineaTE" value="lineaTE">
+                    </td>
+                    <td>
+                        <label for="ServicioIN">Servicio de Internet</label>
+                        <input type="checkbox" name="ServicioIN" id="ServicioIN" value="ServicioIN">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Forma de pago</legend>
+            <table align="left">
+                <tr>
+                    <td id="tr1">Elige la forma de pago</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FormPA">TDC:</label>
+                        <input type="radio" name="FormPA" id="FormPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FormPA">Tarjeta Débito:</label>
+                        <input type="radio" name="FormPA" id="FormPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FormPA">Pago en efectivo:</label>
+                        <input type="radio" name="FormPA" id="FormPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FormPA">Pago mediante Cheque:</label>
+                        <input type="radio" name="FormPA" id="FormPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FormPA">Transferencia Bancaria:</label>
+                        <input type="radio" name="FormPA" id="FormPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FormPA">Deposito bancario:</label>
+                        <input type="radio" name="FormPA" id="FormPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FormPA">Depósito Bancario:</label>
+                        <input type="radio" name="FormPA" id="FormPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FormPA">Pago en Oxxo:</label>
+                        <input type="radio" name="FormPA" id="FormPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit"/>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
