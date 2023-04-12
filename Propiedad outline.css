@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
+#texto{
+    text-align: center;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+#texto1{
+    text-align: center;
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: blue;
+}
+h2{
+    outline: thick ridge pink;
+} 
+#texto3{
+    margin: 30px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
