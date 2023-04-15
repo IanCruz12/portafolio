@@ -1,0 +1,97 @@
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@font-face{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src: url(Libre_Baskerville/LibreBaskerville-Italic.ttf) format(truetype);
+}
+#texto1{
+    display: block;
+    width: 395px;
+    padding: 7px;
+    border: 1px solid #000000;
+    text-align: left;
+    margin: 40px 940px;
+    background-color: #ffffff;
+
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+#texto2{
+    display: block;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #124713;
+    text-align: center;
+    margin: -130px 1px;
+    background: #1a661c;
+}
+#texto2:hover{
+    display: block;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #279e29;
+    text-align: center;
+    margin: -130px 1px;
+    background: #36df3c;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #03620b;
+    padding: 10px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+  
+    display: inline;
+    margin-right: 5px;
+    position: relative;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: #333;
+    color: #f8f8f8;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #09b22e;
+    padding: 5px;
+    left: 0; 
+    top: 100%; 
+  }
+  
+  .submenu ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .submenu li {
+      color: black;
+    margin-bottom: 5px; 
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
