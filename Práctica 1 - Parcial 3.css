@@ -1,0 +1,14 @@
+#encabezado3{
+    color: white;
+    background-color: rgb(103, 180, 252);
+    display: block;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(103, 180, 252);
+    text-align: center;
+    margin: 15px auto;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+
+}   
