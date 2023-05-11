@@ -1,0 +1,29 @@
+div{
+    text-align: center;
+    
+}
+input{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+h1, h2{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive; 
+    text-align: center;
+
+}
+body{
+    background-color: rgba(129, 155, 252, 0.897);
+}
+#preguntas{
+    background: #7de5efed;
+    border: 3px solid #000000;
+    -moz-border-radius: 100px;
+    -webkit-border-radious: 100px;
+    border-radius: 100px;
+}
+li, input{
+    font-family: 'Poltawski Nowy', serif;
+}

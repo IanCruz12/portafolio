@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <script src="Formulario.js"></script>
+    <link rel="stylesheet" href="Formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="contiene">
+        <h1>Encuesta sobre Progaramcion web</h1>
+        <h2>Trata de responder correctamente</h2>
+    <form>
+    <div id="preguntas">
+        
+        <ul>
+    
+            <li>¿De que trata Programacion web?</li>
+            <input type="radio" name="r1" id="r1" value="5"/>Para saber sobre las paginas web y sus bases<br/>
+            <input type="radio" name="r1" id="r1" value="0"/>Para hackear<br/>
+            <input type="radio" name="r1" id="r1" value="0"/>Para descargar juegos ilegalmente<br/>
+            
+            <li>¿Cual de las siguientes cosas puedes hacer en una pagina web?</li>
+            <input type="radio" name="r2" id="r2" value="5"/>Ver codigo fuente<br/>
+            <input type="radio" name="r2" id="r2" value="0"/>Ver respuestas de un examen<br/>
+            <input type="radio" name="r2" id="r2" value="0"/>Ver contraseñas de las demas personas<br/>
+    
+            <li>¿Porque es importante saber sobre Programacion web?</li>
+            <input type="radio" name="r3" id="r3" value="5"/>Para tener mayor informacion sobre las paginas web<br/>
+            <input type="radio" name="r3" id="r3" value="0"/>Para hackear el face de mi noivi@<br/>
+            <input type="radio" name="r3" id="r3" value="0"/>Para buscar lugares de apuesta<br/>
+    
+            <li>¿Que se necesita para subir o crear una pagina?</li>
+            <input type="radio" name="r4" id="r4" value="5"/>Tener experiencia en lenguaje java y contar con un servidor<br/>
+            <input type="radio" name="r4" id="r4" value="0"/>Ver videos en youtube<br/>
+            <input type="radio" name="r4" id="r4" value="0"/>Nada todo sencillito<br/>
+            
+            <li>¿Cual de estos lugares sirve para subir tu pagina?</li>
+            <input type="radio" name="r4" id="r4" value="5"/>GitHub<br/>
+            <input type="radio" name="r4" id="r4" value="0"/>youtube<br/>
+            <input type="radio" name="r4" id="r4" value="0"/>facebook<br/>
+        </ul>
+        
+    </div>
+    <input type="button" value="Calificar" onclick="califica()">
+    </form>
+    <p></p>
+    <p id="total">   </p>
+    <p id="comentario">   </p>
+    <iframe frameborder="0" width="600" height="500"></iframe>
+    </div>
+    </body>
+</html>
