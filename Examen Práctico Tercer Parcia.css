@@ -1,0 +1,16 @@
+label{
+    font-family: 'Cookie', cursive;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+}
+#env{
+    border: #000000, 5px;
+    background-color: #05F3AB;
+    box-shadow: #0044fd;      
+    -moz-border-radius: 20px;
+    -webkit-border-radious: 20px;
+    border-radius: 20px;    
+    align-self: center;
+}
