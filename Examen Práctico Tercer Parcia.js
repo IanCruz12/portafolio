@@ -5,7 +5,7 @@ function formulario(){
     var cum = new Date(fech);
     var mes = cum.getMonth() + 1;
 
-    if(mes === 1){
+    if(mes === 5){
 
         document.getElementById("imagen").style.display = "block";
         document.getElementById("mensaje").innerHTML = "Felicidades Obtuviste un 2*1";
